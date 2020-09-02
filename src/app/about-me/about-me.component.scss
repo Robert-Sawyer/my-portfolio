@@ -1,0 +1,21 @@
+.profile-container {
+  width: 100%;
+  height: fit-content;
+  padding: 30px 15%;
+  position: relative;
+  margin: 0 auto;
+  top: 210px;
+  background-color: #708090;
+  text-align: center;
+
+  p {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: white;
+    font-size: 21px;
+    display: block;
+    letter-spacing: 1.5px;
+    line-height: 1.7rem;
+    padding-bottom: 1rem;
+  }
+}
