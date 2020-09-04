@@ -4,13 +4,24 @@
   padding: 30px 15%;
   position: relative;
   margin: 0 auto;
-  top: 210px;
+  top: 125px;
   background-color: #708090;
   text-align: center;
 
+  @media (min-width: 30rem) {
+    top: 165px;
+  }
+
+  @media (min-width: 45.5rem) {
+    top: 185px;
+  }
+
+  @media (min-width: 55.5rem) {
+    top: 210px;
+  }
+
   p {
-    font-family: 'Montserrat';
-    font-weight: bold;
+    font-family: 'Tahoma';
     color: white;
     font-size: 21px;
     display: block;
