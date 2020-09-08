@@ -1,6 +1,6 @@
 .header-background {
   width: 200%;
-  height: 100px;
+  height: 110px;
   position: fixed;
   z-index: 200;
   background-image: url("src/assets/clouds.jpg");
@@ -60,13 +60,11 @@
 @media (min-width: 45.5rem) {
   .header-container h1 {
     font-size: 50px;
-    margin-bottom: 20px;
   }
 }
 @media (min-width: 55.5rem) {
   .header-container h1 {
     font-size: 60px;
-    margin-bottom: 25px;
   }
 }
 .header-container h1 span {
@@ -76,6 +74,47 @@
   .header-container h1 span {
     display: inline;
   }
+}
+
+.underline {
+  width: 12.6rem;
+  height: 6px;
+  margin: -3px auto;
+  background-color: #000000;
+}
+@media (min-width: 30rem) {
+  .underline {
+    width: 15.6rem;
+  }
+}
+@media (min-width: 55.5rem) {
+  .underline {
+    width: 25.5rem;
+  }
+}
+
+.portfolio-title-container {
+  font-family: "impact";
+  font-size: 14px;
+  letter-spacing: 1rem;
+}
+@media (min-width: 30rem) {
+  .portfolio-title-container {
+    font-size: 18px;
+    letter-spacing: 20px;
+  }
+}
+@media (min-width: 55.5rem) {
+  .portfolio-title-container {
+    font-size: 23px;
+    letter-spacing: 30px;
+  }
+}
+.portfolio-title-container p {
+  margin-top: 5px;
+  margin-bottom: 0;
+  margin-left: 16px;
+  display: inline-block;
 }
 
 .navigation-container {
@@ -92,6 +131,7 @@
 .navigation-container ul {
   list-style: none;
   display: flex;
+  margin-top: 8px;
   justify-content: center;
   font-family: "impact";
   padding: 0;
