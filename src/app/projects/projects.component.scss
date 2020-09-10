@@ -1,0 +1,46 @@
+.projects-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #b1b1b1;
+  padding: 30px;
+  margin-top: 80px;
+
+  @media(min-width: 30rem) {
+    flex-direction: row;
+  }
+}
+
+.section-title {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Tahoma";
+}
+
+.project-container {
+  background-color: #fafafa;
+  border-radius: 15px;
+  min-height: 330px;
+
+  img {
+    width: 100%;
+    height: 274px;
+    border-radius: 15px 15px 0 0;
+  }
+}
+
+.project-info {
+  height: 30px;
+
+}
+
+.project-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Calibri";
+  font-size: 23px;
+  letter-spacing: 3px;
+  margin-top: 10px;
+}
+
+
+
